@@ -8,4 +8,5 @@ begin
     writeln (Cat:3, Rat:3);
     writeln (Cat+Rat:5, Cat-Rat:5);
     writeln (Cat/Rat:5, Cat*Rat:5);
+    writeln (Cat div Rat:5, Cat*Rat:5);
 end.
