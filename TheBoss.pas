@@ -6,5 +6,7 @@ begin
     writeln ('When was Born to Run released? How high did it go?');
     readln (Year, ChartPosition);
     writeln ('Born to Run came out in ', Year, ' and hit #', ChartPosition);
-    {writeln (Year, ChartPosition) - not sure why this line was included in the text}
+    {writeln (Year, ChartPosition)}
+    {Not sure why the line was included in the text.}
+    {The output of it was not included.}
 end. {TheBoss}
