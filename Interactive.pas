@@ -1,3 +1,4 @@
+{Oh! Pascal! p. 14}
 program Interactive (input, output);
     {Demonstrates interactive program input and output.}
 var Number: integer;
