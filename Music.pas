@@ -11,9 +11,7 @@ procedure Tune; {Note the identically named local identifiers.}
         writeln (SCALE, JohnnyOneNote);        
     end; {Tune}
 begin
-    JohnnyOneNote := 'D
-    ';
+    JohnnyOneNote := 'D';
     writeln (SCALE, JohnnyOneNote);
     Tune;
-    writeln (SCALE, JohnnyOneNote);
 end. {Music}
