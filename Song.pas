@@ -1,3 +1,4 @@
+{Oh! Pascal! p. 73}
 program Song (output);
     {Demonstrates declaration of procedures without parameters.}
 procedure Chorus;   {Print the chorus.}
