@@ -26,6 +26,6 @@ begin
         SpecialDelivery := Response = 'Y';
 
         if SpecialDelivery then Postage := Postage + SPECIALCHARGE;
-        writeln ('The ', Weight:1, '-ounce postage charge is ', Postage:5:2)
+        writeln ('The ', Weight:1:1, '-ounce postage charge is $', Postage:1:2)
         
 end. {PostageMeter}
