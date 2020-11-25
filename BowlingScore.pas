@@ -42,7 +42,7 @@ procedure HandleFrame (Frame: integer; var Score: integer;
             writeln ('Frame ', Frame-2:1, ' Score ', Score:1)
         end;
 
-        if LastWasStrike then begin
+        if LastWasStrike and (FirstBall < 10) then begin
             Score := Score + FirstBall + SecondBall + 10;
             writeln ('Frame ', Frame-1:1, ' Score ', Score:1)
         end;
